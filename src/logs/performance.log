@@ -1,0 +1,97 @@
+undefined [PERF] ✅ Database connection initialized | {"timestamp":"2025-04-02 01:58:40"}
+undefined [PERF] ✅ Middlewares loaded | {"timestamp":"2025-04-02 01:58:40"}
+undefined [PERF] ✅ Services loaded: BotService, PremiumService, TrackingService | {"timestamp":"2025-04-02 01:58:40"}
+undefined [PERF] ✅ Utilities loaded: Logger, ErrorHandler, CacheManager | {"timestamp":"2025-04-02 01:58:40"}
+undefined [PERF] ✅ Successfully Logged In | {"timestamp":"2025-04-02 01:58:43"}
+undefined [PERF] 🚀 Bot is online as Erica#7211 | {"timestamp":"2025-04-02 01:58:44"}
+undefined [PERF] 📌 Prefix: - | {"timestamp":"2025-04-02 01:58:44"}
+undefined [PERF] ✅ Loaded command: afk | {"timestamp":"2025-04-02 01:58:44"}
+undefined [PERF] ✅ Loaded command: avatar | {"timestamp":"2025-04-02 01:58:44"}
+undefined [PERF] ✅ Loaded command: banner | {"timestamp":"2025-04-02 01:58:44"}
+undefined [PERF] ✅ Loaded command: help | {"timestamp":"2025-04-02 01:58:44"}
+undefined [PERF] ✅ Loaded command: invite | {"timestamp":"2025-04-02 01:58:44"}
+undefined [PERF] ✅ Loaded command: ping | {"timestamp":"2025-04-02 01:58:44"}
+undefined [PERF] ✅ Loaded command: serverinfo | {"timestamp":"2025-04-02 01:58:44"}
+undefined [PERF] ✅ Loaded command: uptime | {"timestamp":"2025-04-02 01:58:44"}
+undefined [PERF] ✅ Loaded command: userinfo | {"timestamp":"2025-04-02 01:58:44"}
+undefined [PERF] 📢 Loaded event: ready | {"timestamp":"2025-04-02 01:58:44"}
+undefined [PERF] 📢 Loaded event: guildMemberAdd | {"timestamp":"2025-04-02 01:58:44"}
+undefined [PERF] 📢 Loaded event: guildMemberRemove | {"timestamp":"2025-04-02 01:58:44"}
+undefined [PERF] 📢 Loaded event: messageCreate | {"timestamp":"2025-04-02 01:58:44"}
+undefined [PERF] 📢 Loaded event: interactionCreate | {"timestamp":"2025-04-02 01:58:44"}
+undefined [PERF] ✅ Database connection initialized | {"timestamp":"2025-04-02 02:00:32"}
+undefined [PERF] ✅ Middlewares loaded | {"timestamp":"2025-04-02 02:00:32"}
+undefined [PERF] ✅ Services loaded: BotService, PremiumService, TrackingService | {"timestamp":"2025-04-02 02:00:32"}
+undefined [PERF] ✅ Utilities loaded: Logger, ErrorHandler, CacheManager | {"timestamp":"2025-04-02 02:00:32"}
+undefined [PERF] ✅ Successfully Logged In | {"timestamp":"2025-04-02 02:00:34"}
+undefined [PERF] 🚀 Bot is online as Erica#7211 | {"timestamp":"2025-04-02 02:00:34"}
+undefined [PERF] 📌 Prefix: - | {"timestamp":"2025-04-02 02:00:34"}
+undefined [PERF] ✅ Loaded command: afk | {"timestamp":"2025-04-02 02:00:34"}
+undefined [PERF] ✅ Loaded command: avatar | {"timestamp":"2025-04-02 02:00:34"}
+undefined [PERF] ✅ Loaded command: banner | {"timestamp":"2025-04-02 02:00:34"}
+undefined [PERF] ✅ Loaded command: help | {"timestamp":"2025-04-02 02:00:34"}
+undefined [PERF] ✅ Loaded command: invite | {"timestamp":"2025-04-02 02:00:34"}
+undefined [PERF] ✅ Loaded command: ping | {"timestamp":"2025-04-02 02:00:34"}
+undefined [PERF] ✅ Loaded command: serverinfo | {"timestamp":"2025-04-02 02:00:34"}
+undefined [PERF] ✅ Loaded command: uptime | {"timestamp":"2025-04-02 02:00:34"}
+undefined [PERF] ✅ Loaded command: userinfo | {"timestamp":"2025-04-02 02:00:34"}
+undefined [PERF] 📢 Loaded event: ready | {"timestamp":"2025-04-02 02:00:34"}
+undefined [PERF] 📢 Loaded event: guildMemberAdd | {"timestamp":"2025-04-02 02:00:34"}
+undefined [PERF] 📢 Loaded event: guildMemberRemove | {"timestamp":"2025-04-02 02:00:34"}
+undefined [PERF] 📢 Loaded event: messageCreate | {"timestamp":"2025-04-02 02:00:34"}
+undefined [PERF] 📢 Loaded event: interactionCreate | {"timestamp":"2025-04-02 02:00:34"}
+undefined [PERF] 🚨 Unhandled Rejection at: [object Promise], reason: TypeError: Cannot read properties of undefined (reading 'error') | {"timestamp":"2025-04-02 02:00:38"}
+undefined [PERF] ✅ Database connection initialized | {"timestamp":"2025-04-02 02:47:54"}
+undefined [PERF] ✅ Middlewares loaded | {"timestamp":"2025-04-02 02:47:54"}
+undefined [PERF] ✅ Services loaded: BotService, PremiumService, TrackingService | {"timestamp":"2025-04-02 02:47:54"}
+undefined [PERF] ✅ Utilities loaded: Logger, ErrorHandler, CacheManager | {"timestamp":"2025-04-02 02:47:54"}
+undefined [PERF] ✅ Successfully Logged In | {"timestamp":"2025-04-02 02:47:56"}
+undefined [PERF] 🚀 Bot is online as Erica#7211 | {"timestamp":"2025-04-02 02:47:56"}
+undefined [PERF] 📌 Prefix: - | {"timestamp":"2025-04-02 02:47:56"}
+undefined [PERF] 🚨 Unhandled Rejection at: [object Promise], reason: Error: Cannot find module '../../utils/timeParser'
+Require stack:
+- F:\computer files\discordbot\EricaBot\ERICABOT\src\commands\bot-owner\no-prefix-add.js
+- F:\computer files\discordbot\EricaBot\ERICABOT\src\bot.js | {"timestamp":"2025-04-02 02:47:56"}
+undefined [PERF] ✅ Database connection initialized | {"timestamp":"2025-04-02 02:57:25"}
+undefined [PERF] ✅ Middlewares loaded | {"timestamp":"2025-04-02 02:57:25"}
+undefined [PERF] ✅ Services loaded: BotService, PremiumService, TrackingService | {"timestamp":"2025-04-02 02:57:25"}
+undefined [PERF] ✅ Utilities loaded: Logger, ErrorHandler, CacheManager | {"timestamp":"2025-04-02 02:57:25"}
+undefined [PERF] ✅ Successfully Logged In | {"timestamp":"2025-04-02 02:57:27"}
+undefined [PERF] 🚀 Bot is online as Erica#7211 | {"timestamp":"2025-04-02 02:57:27"}
+undefined [PERF] 📌 Prefix: - | {"timestamp":"2025-04-02 02:57:27"}
+undefined [PERF] ✅ Loaded command: noprefix+ | {"timestamp":"2025-04-02 02:57:27"}
+undefined [PERF] ✅ Loaded command: noprefix list | {"timestamp":"2025-04-02 02:57:27"}
+undefined [PERF] ✅ Loaded command: noprefix- | {"timestamp":"2025-04-02 02:57:27"}
+undefined [PERF] ✅ Loaded command: prm+ | {"timestamp":"2025-04-02 02:57:27"}
+undefined [PERF] 🚨 Unhandled Rejection at: [object Promise], reason: Error: Cannot find module '../../utils/paginator'
+Require stack:
+- F:\computer files\discordbot\EricaBot\ERICABOT\src\commands\bot-owner\premium-list-guilds.js
+- F:\computer files\discordbot\EricaBot\ERICABOT\src\bot.js | {"timestamp":"2025-04-02 02:57:27"}
+undefined [PERF] ✅ Database connection initialized | {"timestamp":"2025-04-02 03:01:47"}
+undefined [PERF] ✅ Middlewares loaded | {"timestamp":"2025-04-02 03:01:47"}
+undefined [PERF] ✅ Services loaded: BotService, PremiumService, TrackingService | {"timestamp":"2025-04-02 03:01:47"}
+undefined [PERF] ✅ Utilities loaded: Logger, ErrorHandler, CacheManager | {"timestamp":"2025-04-02 03:01:47"}
+undefined [PERF] ✅ Successfully Logged In | {"timestamp":"2025-04-02 03:01:49"}
+undefined [PERF] 🚀 Bot is online as Erica#7211 | {"timestamp":"2025-04-02 03:01:49"}
+undefined [PERF] 📌 Prefix: - | {"timestamp":"2025-04-02 03:01:49"}
+undefined [PERF] ✅ Loaded command: noprefix+ | {"timestamp":"2025-04-02 03:01:49"}
+undefined [PERF] ✅ Loaded command: noprefix list | {"timestamp":"2025-04-02 03:01:49"}
+undefined [PERF] ✅ Loaded command: noprefix- | {"timestamp":"2025-04-02 03:01:49"}
+undefined [PERF] ✅ Loaded command: prm+ | {"timestamp":"2025-04-02 03:01:49"}
+undefined [PERF] ✅ Loaded command: prm lg | {"timestamp":"2025-04-02 03:01:49"}
+undefined [PERF] ✅ Loaded command: prm lu | {"timestamp":"2025-04-02 03:01:49"}
+undefined [PERF] ✅ Loaded command: prm- | {"timestamp":"2025-04-02 03:01:49"}
+undefined [PERF] ✅ Loaded command: afk | {"timestamp":"2025-04-02 03:01:49"}
+undefined [PERF] ✅ Loaded command: avatar | {"timestamp":"2025-04-02 03:01:49"}
+undefined [PERF] ✅ Loaded command: banner | {"timestamp":"2025-04-02 03:01:49"}
+undefined [PERF] ✅ Loaded command: help | {"timestamp":"2025-04-02 03:01:49"}
+undefined [PERF] ✅ Loaded command: invite | {"timestamp":"2025-04-02 03:01:49"}
+undefined [PERF] ✅ Loaded command: ping | {"timestamp":"2025-04-02 03:01:49"}
+undefined [PERF] ✅ Loaded command: serverinfo | {"timestamp":"2025-04-02 03:01:49"}
+undefined [PERF] ✅ Loaded command: uptime | {"timestamp":"2025-04-02 03:01:49"}
+undefined [PERF] ✅ Loaded command: userinfo | {"timestamp":"2025-04-02 03:01:49"}
+undefined [PERF] 📢 Loaded event: ready | {"timestamp":"2025-04-02 03:01:49"}
+undefined [PERF] 📢 Loaded event: guildMemberAdd | {"timestamp":"2025-04-02 03:01:49"}
+undefined [PERF] 📢 Loaded event: guildMemberRemove | {"timestamp":"2025-04-02 03:01:49"}
+undefined [PERF] 📢 Loaded event: messageCreate | {"timestamp":"2025-04-02 03:01:49"}
+undefined [PERF] 📢 Loaded event: interactionCreate | {"timestamp":"2025-04-02 03:01:49"}

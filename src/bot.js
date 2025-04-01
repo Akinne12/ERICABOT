@@ -35,16 +35,16 @@ const client = new Client({
 
 // Database Connection
 connectToDatabase();
-logger.logInfo('✅ Database connection initialized');
+logger.info('✅ Database connection initialized');
 
 // Middleware Setup
 client.rateLimiter = rateLimiter;
 client.authMiddleware = authMiddleware;
-logger.logInfo('✅ Middlewares loaded');
+logger.info('✅ Middlewares loaded');
 
 // Confirming Services and Utilities
-logger.logInfo('✅ Services loaded: BotService, PremiumService, TrackingService');
-logger.logInfo('✅ Utilities loaded: Logger, ErrorHandler, CacheManager');
+logger.info('✅ Services loaded: BotService, PremiumService, TrackingService');
+logger.info('✅ Utilities loaded: Logger, ErrorHandler, CacheManager');
 
 // Initialize Collections
 client.commands = new Collection();
@@ -58,7 +58,7 @@ const loadCommands = () => {
     for (const file of commandFiles) {
       const command = require(`./commands/${folder}/${file}`);
       client.commands.set(command.name, command);
-      logger.logInfo(`✅ Loaded command: ${command.name}`);
+      logger.info(`✅ Loaded command: ${command.name}`);
     }
   }
 };
@@ -75,7 +75,7 @@ const loadEvents = () => {
       } else {
         client.on(event.name, (...args) => event.execute(...args, client));
       }
-      logger.logInfo(`📢 Loaded event: ${event.name}`);
+      logger.info(`📢 Loaded event: ${event.name}`);
     }
   }
 };
@@ -114,14 +114,14 @@ client.on('guildMemberAdd', async (member) => {
       client.guildInvites.set(member.guild.id, guildInvites);
     }
   } catch (error) {
-    logger.logError(`❗ Error tracking invites: ${error}`);
+    logger.error(`❗ Error tracking invites: ${error}`);
   }
 });
 
 // Ready Event
 client.once('ready', () => {
-  logger.logInfo(`🚀 Bot is online as ${client.user.tag}`);
-  logger.logInfo(`📌 Prefix: ${config.prefix}`);
+  logger.info(`🚀 Bot is online as ${client.user.tag}`);
+  logger.info(`📌 Prefix: ${config.prefix}`);
   loadCommands();
   loadEvents();
 
@@ -134,14 +134,14 @@ client.once('ready', () => {
 
 // Error Handling
 process.on('uncaughtException', (error) => {
-  logger.logError(`🚨 Uncaught Exception: ${error.stack || error}`);
+  logger.error(`🚨 Uncaught Exception: ${error.stack || error}`);
 });
 
 process.on('unhandledRejection', (reason, promise) => {
-  logger.logError(`🚨 Unhandled Rejection at: ${promise}, reason: ${reason}`);
+  logger.error(`🚨 Unhandled Rejection at: ${promise}, reason: ${reason}`);
 });
 
 // Login to Discord
 client.login(process.env.TOKEN)
-  .then(() => logger.logInfo('✅ Successfully Logged In'))
-  .catch((err) => logger.logError(`❌ Login Failed: ${err}`));
+  .then(() => logger.info('✅ Successfully Logged In'))
+  .catch((err) => logger.error(`❌ Login Failed: ${err}`));

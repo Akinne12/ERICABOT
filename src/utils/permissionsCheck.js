@@ -1,21 +1,20 @@
-// permissionsCheck.js
-
 module.exports = {
-    hasPermission: (member, permissions) => {
-      if (!member || !permissions) return false;
-      return member.permissions.has(permissions);
-    },
-  
-    isBotOwner: (userId, ownerId) => {
-      return userId === ownerId;
-    },
-  
-    isTrustedUser: (userId, trustedUsers) => {
-      return trustedUsers.includes(userId);
-    },
-  
-    isBlacklisted: (userId, blacklist) => {
-      return blacklist.includes(userId);
-    }
-  };
-  
+  hasPermission: (member, permissionFlags) => {
+    if (!member?.permissions?.has) return false;
+    return member.permissions.has(permissionFlags);
+  },
+
+  isBotOwner: (userId) => {
+    return userId === process.env.BOT_OWNER_ID;
+  },
+
+  isTrustedUser: (userId) => {
+    const trustedUsers = process.env.TRUSTED_USERS?.split(',') || [];
+    return trustedUsers.includes(userId);
+  },
+
+  isBlacklisted: (userId) => {
+    const blacklist = process.env.BLACKLISTED_USERS?.split(',') || [];
+    return blacklist.includes(userId);
+  }
+};

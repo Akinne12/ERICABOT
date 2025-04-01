@@ -1,18 +1,34 @@
-// errorHandler.js
+const fs = require('fs').promises;
+const logger = require('./logger');
+const { EmbedBuilder } = require('discord.js');
 
 module.exports = {
-    handleError: (error, context) => {
-      console.error(`Error in ${context}:`, error);
-  
-      // Optional: Log errors to a file
-      const fs = require('fs');
-      const logMessage = `${new Date().toISOString()} - Error in ${context}: ${error.stack || error}\n`;
-      fs.appendFileSync('logs/error.log', logMessage);
-  
-      // Send error message to Discord (if applicable)
-      if (context.channel) {
-        context.channel.send('An error occurred. Please try again later.');
-      }
+  handleError: async (error, context = {}) => {
+    const errorMessage = error.stack || error.toString();
+    logger.error(`[${context.operation || 'UNKNOWN'}] ${errorMessage}`);
+
+    // Log to file
+    try {
+      await fs.appendFile(
+        'logs/error.log', 
+        `${new Date().toISOString()} - ${context.operation || 'ERROR'}: ${errorMessage}\n`
+      );
+    } catch (err) {
+      logger.error(`Failed to log error: ${err}`);
     }
-  };
-  
+
+    // Discord response
+    if (context.channel?.isTextBased()) {
+      const embed = new EmbedBuilder()
+        .setColor(0xFF0000)
+        .setTitle('⚠️ Error')
+        .setDescription('An error occurred. The team has been notified.')
+        .addFields({
+          name: 'Operation',
+          value: context.operation || 'Not specified'
+        });
+      
+      await context.channel.send({ embeds: [embed] });
+    }
+  }
+};

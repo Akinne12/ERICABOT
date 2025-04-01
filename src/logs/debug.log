@@ -1,0 +1,97 @@
+2025-04-02 01:58:40 [info]: ✅ Database connection initialized
+2025-04-02 01:58:40 [info]: ✅ Middlewares loaded
+2025-04-02 01:58:40 [info]: ✅ Services loaded: BotService, PremiumService, TrackingService
+2025-04-02 01:58:40 [info]: ✅ Utilities loaded: Logger, ErrorHandler, CacheManager
+2025-04-02 01:58:43 [info]: ✅ Successfully Logged In
+2025-04-02 01:58:44 [info]: 🚀 Bot is online as Erica#7211
+2025-04-02 01:58:44 [info]: 📌 Prefix: -
+2025-04-02 01:58:44 [info]: ✅ Loaded command: afk
+2025-04-02 01:58:44 [info]: ✅ Loaded command: avatar
+2025-04-02 01:58:44 [info]: ✅ Loaded command: banner
+2025-04-02 01:58:44 [info]: ✅ Loaded command: help
+2025-04-02 01:58:44 [info]: ✅ Loaded command: invite
+2025-04-02 01:58:44 [info]: ✅ Loaded command: ping
+2025-04-02 01:58:44 [info]: ✅ Loaded command: serverinfo
+2025-04-02 01:58:44 [info]: ✅ Loaded command: uptime
+2025-04-02 01:58:44 [info]: ✅ Loaded command: userinfo
+2025-04-02 01:58:44 [info]: 📢 Loaded event: ready
+2025-04-02 01:58:44 [info]: 📢 Loaded event: guildMemberAdd
+2025-04-02 01:58:44 [info]: 📢 Loaded event: guildMemberRemove
+2025-04-02 01:58:44 [info]: 📢 Loaded event: messageCreate
+2025-04-02 01:58:44 [info]: 📢 Loaded event: interactionCreate
+2025-04-02 02:00:32 [info]: ✅ Database connection initialized
+2025-04-02 02:00:32 [info]: ✅ Middlewares loaded
+2025-04-02 02:00:32 [info]: ✅ Services loaded: BotService, PremiumService, TrackingService
+2025-04-02 02:00:32 [info]: ✅ Utilities loaded: Logger, ErrorHandler, CacheManager
+2025-04-02 02:00:34 [info]: ✅ Successfully Logged In
+2025-04-02 02:00:34 [info]: 🚀 Bot is online as Erica#7211
+2025-04-02 02:00:34 [info]: 📌 Prefix: -
+2025-04-02 02:00:34 [info]: ✅ Loaded command: afk
+2025-04-02 02:00:34 [info]: ✅ Loaded command: avatar
+2025-04-02 02:00:34 [info]: ✅ Loaded command: banner
+2025-04-02 02:00:34 [info]: ✅ Loaded command: help
+2025-04-02 02:00:34 [info]: ✅ Loaded command: invite
+2025-04-02 02:00:34 [info]: ✅ Loaded command: ping
+2025-04-02 02:00:34 [info]: ✅ Loaded command: serverinfo
+2025-04-02 02:00:34 [info]: ✅ Loaded command: uptime
+2025-04-02 02:00:34 [info]: ✅ Loaded command: userinfo
+2025-04-02 02:00:34 [info]: 📢 Loaded event: ready
+2025-04-02 02:00:34 [info]: 📢 Loaded event: guildMemberAdd
+2025-04-02 02:00:34 [info]: 📢 Loaded event: guildMemberRemove
+2025-04-02 02:00:34 [info]: 📢 Loaded event: messageCreate
+2025-04-02 02:00:34 [info]: 📢 Loaded event: interactionCreate
+2025-04-02 02:00:38 [error]: 🚨 Unhandled Rejection at: [object Promise], reason: TypeError: Cannot read properties of undefined (reading 'error')
+2025-04-02 02:47:54 [info]: ✅ Database connection initialized
+2025-04-02 02:47:54 [info]: ✅ Middlewares loaded
+2025-04-02 02:47:54 [info]: ✅ Services loaded: BotService, PremiumService, TrackingService
+2025-04-02 02:47:54 [info]: ✅ Utilities loaded: Logger, ErrorHandler, CacheManager
+2025-04-02 02:47:56 [info]: ✅ Successfully Logged In
+2025-04-02 02:47:56 [info]: 🚀 Bot is online as Erica#7211
+2025-04-02 02:47:56 [info]: 📌 Prefix: -
+2025-04-02 02:47:56 [error]: 🚨 Unhandled Rejection at: [object Promise], reason: Error: Cannot find module '../../utils/timeParser'
+Require stack:
+- F:\computer files\discordbot\EricaBot\ERICABOT\src\commands\bot-owner\no-prefix-add.js
+- F:\computer files\discordbot\EricaBot\ERICABOT\src\bot.js
+2025-04-02 02:57:25 [info]: ✅ Database connection initialized
+2025-04-02 02:57:25 [info]: ✅ Middlewares loaded
+2025-04-02 02:57:25 [info]: ✅ Services loaded: BotService, PremiumService, TrackingService
+2025-04-02 02:57:25 [info]: ✅ Utilities loaded: Logger, ErrorHandler, CacheManager
+2025-04-02 02:57:27 [info]: ✅ Successfully Logged In
+2025-04-02 02:57:27 [info]: 🚀 Bot is online as Erica#7211
+2025-04-02 02:57:27 [info]: 📌 Prefix: -
+2025-04-02 02:57:27 [info]: ✅ Loaded command: noprefix+
+2025-04-02 02:57:27 [info]: ✅ Loaded command: noprefix list
+2025-04-02 02:57:27 [info]: ✅ Loaded command: noprefix-
+2025-04-02 02:57:27 [info]: ✅ Loaded command: prm+
+2025-04-02 02:57:27 [error]: 🚨 Unhandled Rejection at: [object Promise], reason: Error: Cannot find module '../../utils/paginator'
+Require stack:
+- F:\computer files\discordbot\EricaBot\ERICABOT\src\commands\bot-owner\premium-list-guilds.js
+- F:\computer files\discordbot\EricaBot\ERICABOT\src\bot.js
+2025-04-02 03:01:47 [info]: ✅ Database connection initialized
+2025-04-02 03:01:47 [info]: ✅ Middlewares loaded
+2025-04-02 03:01:47 [info]: ✅ Services loaded: BotService, PremiumService, TrackingService
+2025-04-02 03:01:47 [info]: ✅ Utilities loaded: Logger, ErrorHandler, CacheManager
+2025-04-02 03:01:49 [info]: ✅ Successfully Logged In
+2025-04-02 03:01:49 [info]: 🚀 Bot is online as Erica#7211
+2025-04-02 03:01:49 [info]: 📌 Prefix: -
+2025-04-02 03:01:49 [info]: ✅ Loaded command: noprefix+
+2025-04-02 03:01:49 [info]: ✅ Loaded command: noprefix list
+2025-04-02 03:01:49 [info]: ✅ Loaded command: noprefix-
+2025-04-02 03:01:49 [info]: ✅ Loaded command: prm+
+2025-04-02 03:01:49 [info]: ✅ Loaded command: prm lg
+2025-04-02 03:01:49 [info]: ✅ Loaded command: prm lu
+2025-04-02 03:01:49 [info]: ✅ Loaded command: prm-
+2025-04-02 03:01:49 [info]: ✅ Loaded command: afk
+2025-04-02 03:01:49 [info]: ✅ Loaded command: avatar
+2025-04-02 03:01:49 [info]: ✅ Loaded command: banner
+2025-04-02 03:01:49 [info]: ✅ Loaded command: help
+2025-04-02 03:01:49 [info]: ✅ Loaded command: invite
+2025-04-02 03:01:49 [info]: ✅ Loaded command: ping
+2025-04-02 03:01:49 [info]: ✅ Loaded command: serverinfo
+2025-04-02 03:01:49 [info]: ✅ Loaded command: uptime
+2025-04-02 03:01:49 [info]: ✅ Loaded command: userinfo
+2025-04-02 03:01:49 [info]: 📢 Loaded event: ready
+2025-04-02 03:01:49 [info]: 📢 Loaded event: guildMemberAdd
+2025-04-02 03:01:49 [info]: 📢 Loaded event: guildMemberRemove
+2025-04-02 03:01:49 [info]: 📢 Loaded event: messageCreate
+2025-04-02 03:01:49 [info]: 📢 Loaded event: interactionCreate

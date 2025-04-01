@@ -1,0 +1,42 @@
+{"level":"error","message":"🚨 Unhandled Rejection at: [object Promise], reason: TypeError: Cannot read properties of undefined (reading 'error')","timestamp":"2025-04-02 02:00:38"}
+{"level":"error","message":"🚨 Unhandled Rejection at: [object Promise], reason: Error: Cannot find module '../../utils/timeParser'\nRequire stack:\n- F:\\computer files\\discordbot\\EricaBot\\ERICABOT\\src\\commands\\bot-owner\\no-prefix-add.js\n- F:\\computer files\\discordbot\\EricaBot\\ERICABOT\\src\\bot.js","timestamp":"2025-04-02 02:47:56"}
+{"level":"info","message":"✅ Database connection initialized","timestamp":"2025-04-02 02:57:25"}
+{"level":"info","message":"✅ Middlewares loaded","timestamp":"2025-04-02 02:57:25"}
+{"level":"info","message":"✅ Services loaded: BotService, PremiumService, TrackingService","timestamp":"2025-04-02 02:57:25"}
+{"level":"info","message":"✅ Utilities loaded: Logger, ErrorHandler, CacheManager","timestamp":"2025-04-02 02:57:25"}
+{"level":"info","message":"✅ Successfully Logged In","timestamp":"2025-04-02 02:57:27"}
+{"level":"info","message":"🚀 Bot is online as Erica#7211","timestamp":"2025-04-02 02:57:27"}
+{"level":"info","message":"📌 Prefix: -","timestamp":"2025-04-02 02:57:27"}
+{"level":"info","message":"✅ Loaded command: noprefix+","timestamp":"2025-04-02 02:57:27"}
+{"level":"info","message":"✅ Loaded command: noprefix list","timestamp":"2025-04-02 02:57:27"}
+{"level":"info","message":"✅ Loaded command: noprefix-","timestamp":"2025-04-02 02:57:27"}
+{"level":"info","message":"✅ Loaded command: prm+","timestamp":"2025-04-02 02:57:27"}
+{"level":"error","message":"🚨 Unhandled Rejection at: [object Promise], reason: Error: Cannot find module '../../utils/paginator'\nRequire stack:\n- F:\\computer files\\discordbot\\EricaBot\\ERICABOT\\src\\commands\\bot-owner\\premium-list-guilds.js\n- F:\\computer files\\discordbot\\EricaBot\\ERICABOT\\src\\bot.js","timestamp":"2025-04-02 02:57:27"}
+{"level":"info","message":"✅ Database connection initialized","timestamp":"2025-04-02 03:01:47"}
+{"level":"info","message":"✅ Middlewares loaded","timestamp":"2025-04-02 03:01:47"}
+{"level":"info","message":"✅ Services loaded: BotService, PremiumService, TrackingService","timestamp":"2025-04-02 03:01:47"}
+{"level":"info","message":"✅ Utilities loaded: Logger, ErrorHandler, CacheManager","timestamp":"2025-04-02 03:01:47"}
+{"level":"info","message":"✅ Successfully Logged In","timestamp":"2025-04-02 03:01:49"}
+{"level":"info","message":"🚀 Bot is online as Erica#7211","timestamp":"2025-04-02 03:01:49"}
+{"level":"info","message":"📌 Prefix: -","timestamp":"2025-04-02 03:01:49"}
+{"level":"info","message":"✅ Loaded command: noprefix+","timestamp":"2025-04-02 03:01:49"}
+{"level":"info","message":"✅ Loaded command: noprefix list","timestamp":"2025-04-02 03:01:49"}
+{"level":"info","message":"✅ Loaded command: noprefix-","timestamp":"2025-04-02 03:01:49"}
+{"level":"info","message":"✅ Loaded command: prm+","timestamp":"2025-04-02 03:01:49"}
+{"level":"info","message":"✅ Loaded command: prm lg","timestamp":"2025-04-02 03:01:49"}
+{"level":"info","message":"✅ Loaded command: prm lu","timestamp":"2025-04-02 03:01:49"}
+{"level":"info","message":"✅ Loaded command: prm-","timestamp":"2025-04-02 03:01:49"}
+{"level":"info","message":"✅ Loaded command: afk","timestamp":"2025-04-02 03:01:49"}
+{"level":"info","message":"✅ Loaded command: avatar","timestamp":"2025-04-02 03:01:49"}
+{"level":"info","message":"✅ Loaded command: banner","timestamp":"2025-04-02 03:01:49"}
+{"level":"info","message":"✅ Loaded command: help","timestamp":"2025-04-02 03:01:49"}
+{"level":"info","message":"✅ Loaded command: invite","timestamp":"2025-04-02 03:01:49"}
+{"level":"info","message":"✅ Loaded command: ping","timestamp":"2025-04-02 03:01:49"}
+{"level":"info","message":"✅ Loaded command: serverinfo","timestamp":"2025-04-02 03:01:49"}
+{"level":"info","message":"✅ Loaded command: uptime","timestamp":"2025-04-02 03:01:49"}
+{"level":"info","message":"✅ Loaded command: userinfo","timestamp":"2025-04-02 03:01:49"}
+{"level":"info","message":"📢 Loaded event: ready","timestamp":"2025-04-02 03:01:49"}
+{"level":"info","message":"📢 Loaded event: guildMemberAdd","timestamp":"2025-04-02 03:01:49"}
+{"level":"info","message":"📢 Loaded event: guildMemberRemove","timestamp":"2025-04-02 03:01:49"}
+{"level":"info","message":"📢 Loaded event: messageCreate","timestamp":"2025-04-02 03:01:49"}
+{"level":"info","message":"📢 Loaded event: interactionCreate","timestamp":"2025-04-02 03:01:49"}

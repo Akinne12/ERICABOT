@@ -1,3 +1,4 @@
+//botService.js
 const { logger } = require('../utils/logger');
 module.exports.handleMessage = async (client, message) => {
   const { noprefix } = client.config;
